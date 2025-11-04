@@ -5,5 +5,5 @@ sqlalchemy[asyncio]==2.0.44
 asyncpg==0.30.0
 python-dotenv==1.1.1
 alembic==1.17.1
-anyio==4.11.0
 pydantic[email]==2.12.3
+pwdlib==0.3.0
