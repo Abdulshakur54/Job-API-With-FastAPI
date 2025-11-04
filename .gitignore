@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtualenv
+venv/
+env/
+.venv/
+.env
+
+# Pydantic / FastAPI cache
+*.sqlite
+*.db
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+htmlcov/
+.coverage
+pytest_cache/
+.pytest_cache/
+
+# Migrations (if using Alembic)
+migrations/versions/
+alembic.ini
+
+# Node / frontend (if you have React / Vue frontend)
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Misc
+*.env
+*.env.*.local
